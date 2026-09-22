@@ -30,19 +30,19 @@ int main()
             std::cout << "Ответ:" << result << std::endl;
         }
         else if (choise == 2) {
-            std::cout << "Введите 2 числа";
+            std::cout << "Введите 2 числа:";
             std::cin >> a >> b;
             result = b - a;
             std::cout << "Ответ:" << result << std::endl;
         }
         else if (choise == 3) {
-            std::cout << "Введите 2 числа";
+            std::cout << "Введите 2 числа:";
             std::cin >> a >> b;
             result = a * b;
             std::cout << "Ответ:" << result << std::endl;
         }
         else if (choise == 4) {
-            std::cout << "Введите 2 числа";
+            std::cout << "Введите 2 числа:";
             std::cin >> a >> b;
             if (b == 0) {
                 std::cout << "На ноль делить нельзя";
@@ -53,25 +53,25 @@ int main()
             }
         }
         else if (choise == 5) {
-            std::cout << "Введите число и степень";
+            std::cout << "Введите число и степень:";
             std::cin >> a >> N;
             result = pow(a,N);
             std::cout << "Ответ:" << result << std::endl;
         }
         else if (choise == 6) {
-            std::cout << "Введите число";
+            std::cout << "Введите число:";
             std::cin >> a;
             result = sqrt(a);
             std::cout << "Ответ:" << result << std::endl;
         }
         else if (choise == 7) {
-            std::cout << "Введите число";
+            std::cout << "Введите число:";
             std::cin >> a;
             result = a * 0.01;
             std::cout << "Ответ:" << result << std::endl;
         }
         else if (choise == 8) {
-            std::cout << "Введите число";
+            std::cout << "Введите число:";
             std::cin >> N;
             if (N < 0) {
                 std::cout << "Факториал от отрицательного целого числа не существует";
