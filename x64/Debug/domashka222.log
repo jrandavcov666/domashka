@@ -1,0 +1,3 @@
+﻿  domashka222.cpp
+C:\Users\Мария\source\repos\domashka222\domashka222\domashka222.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  domashka222.vcxproj -> C:\Users\Мария\source\repos\domashka222\x64\Debug\domashka222.exe
